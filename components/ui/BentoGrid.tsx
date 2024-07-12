@@ -52,8 +52,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["ReactJS", "Express", "Typescript", "TailwindCSS"];
+  const rightLists = ["PHP", "NextJS", "Java", "NodeJS"];
 
   const [copied, setCopied] = useState(false);
 
@@ -67,7 +67,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "cesarcruz3002@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -139,7 +139,9 @@ export const BentoGridItem = ({
           {/* for the github 3d globe */}
           {id === 2 && <GridGlobe />}
 
-          {/* Tech stack list div */}
+           {/* empieza la parte del stack tecnologico*/}
+          
+           
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               {/* tech stack lists */}
@@ -169,6 +171,9 @@ export const BentoGridItem = ({
               </div>
             </div>
           )}
+
+ {/* aqui termina */}
+
           {id === 6 && (
             <div className="mt-5 relative">
               {/* button border magic from tailwind css buttons  */}

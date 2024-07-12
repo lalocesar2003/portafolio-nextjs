@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Prioritizo la colaboración con el cliente, fomentando la comunicación abierta",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Soy flexible con las zonas horarias y fluido en inglés.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Mi stack tecnológico",
+    description: "Siempre trato de mejorar",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Entusiasta de la tecnología con pasión por el desarrollo.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -46,11 +46,10 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Actualmente estoy contruyendo una tienda de dropshipping con Next.js y TailwindCSS.",
+    description: "Lo Ultimo",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +58,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "¿Quieres comenzar un proyecto juntos?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,69 +71,64 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Sistema de ventas",
+    des: "Un sistema de punto de venta completo con características de ERP para administrar y hacer crecer tu negocio.",
+    img: "/inv3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://ferreterias.site/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "iassat.pe ",
+    des: "Lapagina web creada para mi ultimo cliente",
+    img: "/ias5.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "/iassat.pe",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "criptocotizer",
+    des: "Una aplicación web que rastrea los precios de las criptomonedas en tiempo real y muestra información detallada sobre cada moneda.",
+    img: "/cri1.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://magical-strudel-a0103a.netlify.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "planify",
+    des: "Una aplicación web de planificación de gastos que te ayuda a administrar tus finanzas personales de manera efectiva.",
+    img: "/pre2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://aesthetic-marzipan-7993e0.netlify.app/",
   },
 ];
 
 export const testimonials = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    "quote": "Trabajar con César fue una experiencia excelente. Su enfoque meticuloso y compromiso con los plazos nos impresionó enormemente. Cada detalle del proyecto fue manejado con gran profesionalismo y pasión. Definitivamente recomendaría a César para cualquier desarrollo web.",
+    "name": "Laura García",
+    "title": "CEO de TechWave Solutions"
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    "quote": "La dedicación y el entusiasmo de César por su trabajo son insuperables. No solo cumplió con todas nuestras expectativas, sino que las superó, brindando ideas innovadoras que mejoraron significativamente nuestra presencia en línea. Un verdadero profesional en todos los sentidos.",
+    "name": "Carlos Méndez",
+    "title": "Gerente de Desarrollo en NetSolutions"
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    "quote": "César fue fundamental para el éxito de nuestro proyecto web. Su habilidad para entender nuestras necesidades y convertirlas en un producto final de alta calidad fue impresionante. Siempre estuvo disponible para resolver dudas y aportar soluciones creativas. Un verdadero placer trabajar con él.",
+    "name": "Ana López",
+    "title": "Directora de Operaciones en Web Innovators"
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    "quote": "El profesionalismo y la puntualidad de César fueron claves en la finalización exitosa de nuestro proyecto. Su dedicación para entregar resultados excepcionales es notable. Si buscas un desarrollador comprometido y con un gran ojo para los detalles, César es la persona indicada.",
+    "name": "Miguel Fernández",
+    "title": "CFO de Digital Horizons"
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+    "quote": "César no solo nos ayudó a crear una página web funcional, sino que también aportó ideas innovadoras que realmente mejoraron nuestra estrategia digital. Su pasión por el desarrollo es evidente en cada aspecto de su trabajo. Lo recomendaría sin dudarlo.",
+    "name": "Sofia Martínez",
+    "title": "Co-fundadora de StartUp Nexus"
+  }
 ];
 
 export const companies = [
@@ -173,29 +167,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Desarrollador Backend ",
+    desc: "Creo proyectos de backend con tecnologias como node.js, express, mongodb, etc.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "fundador de una startup Devhouse Peru",
+    desc: "Cree mi propia empresa de desarrollo de software y lideré un equipo de 2 personas para desarrollar aplicaciones web",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Youtuber de tecnologia",
+    desc: "Desarrolló proyectos para enseñar a los mas nuevos los primeros pasos en las tecnologias que domino.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Desarrollador Frontend",
+    desc: "tengo mas de 20 proyectos web creados en los ultimos 2 años, con tecnologias como next.js, tailwindcss, typescript, react, etc.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
